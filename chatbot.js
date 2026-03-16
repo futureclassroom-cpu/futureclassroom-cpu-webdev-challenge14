@@ -282,8 +282,8 @@ Tone: warm, professional, proud of the school. Always respond in English only, r
     showTyping();
 
     try {
-      const GEMINI_API_KEY = 'AIzaSyDicrdbgAc01KZx-vKGx5Mcu4vmUYr8Eyw';
-      const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+      const GEMINI_API_KEY = 'AIzaSyBJvF-Wr24nwOSaTOexuIvVkUjKt1wCkJ0';
+      const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${GEMINI_API_KEY}`;
 
       const contents = state.history.map(m => ({
         role: m.role === 'assistant' ? 'model' : 'user',
